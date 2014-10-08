@@ -1,0 +1,109 @@
+html, body, h1, h2, h3, h4, h5, h6, p, div, span, input, ul, ol, li {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, 'Hiragino Sans GB', 'Microsoft YaHei','WenQuanYi Micro Hei', sans-serif;
+	letter-spacing: 1px;
+}
+
+body {
+	background-color: #181D23;
+}
+
+.grid-2 {
+	width: 100%;
+	height: 125px;
+	background: url('./images/grid-2.png') no-repeat scroll center top;
+	border-bottom: 1px rgba(236, 106, 85, .1) solid;
+	padding-top: 1px;
+}
+.avatar-circle {
+	width: 188px;
+	height: 116px;
+	background: url('./images/avatar-circle.png') no-repeat scroll center top;
+	margin: 22px auto;
+	text-align: center;
+	overflow: hidden;
+}
+.avatar {
+	width: 62px;
+	height: 62px;
+	margin: 10px auto;
+	border-radius: 31px;
+	overflow: hidden;
+	display: block;
+}
+.nickname {
+	color: #B4B5B5;
+	display: block;
+	width: 100%;
+	margin-top: 2px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 14px;
+}
+.add-charts {
+	width: 96px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px;
+	padding-left: 28px;
+	color: #fff;
+	font-size: 16px;
+	background: #EC6A55 url('./images/add-charts.png') no-repeat scroll 12% center;
+	position: absolute;
+	left: 56%;
+	top: 50px;
+}
+.charts-list {
+	width: 744px;
+	margin: 30px auto;
+	list-style-type: none;
+}
+.charts-list li {
+	float: left;
+	width: 162px;
+	height: 162px;
+	position: relative;
+	margin-left: 24px;
+	margin-top: 24px;
+	border-radius: 81px;
+	overflow: hidden;	
+}
+.chart-img {
+	display: block;
+	width: 162px;
+	height: 162px;
+	border-radius: 81px;
+	overflow: hidden;	
+}
+.chart-title {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(70, 79, 101, 0.5);
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fefefe;
+}
+.copyright {
+	color: #fff;
+	width: 100%;
+	position: relative;
+	top: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.fix {
+	*zoom:1;
+}
+.fix:after {
+	display:block; 
+	content:"clear"; 
+	height:0; 
+	clear:both; 
+	overflow:hidden; 
+	visibility:hidden;
+}
