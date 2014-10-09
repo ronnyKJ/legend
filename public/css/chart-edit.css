@@ -91,6 +91,82 @@ body {
 .selected {
 	background-color: rgba(79, 79, 101, 1.0);
 }
+.popup-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #2B2B2C;
+    overflow-x: scroll;
+}
+.close-popup {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #464F65;
+    border-radius: 3px;
+    position: fixed;
+    top: 10px;
+    left: 340px;
+}
+.col-checkbox {
+    list-style-type: none;
+    position: absolute;
+    top: 80px;
+    height: 40px;
+    white-space:nowrap;
+    background: url('../images/left-arrow.png') no-repeat scroll left center;
+    margin-left: 20px;
+}
+.col-checkbox li {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+input.css-checkbox {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+input.css-checkbox + label.css-label {
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    line-height: 26px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: url('../images/checkbox.png');
+}
+input.css-checkbox:checked + label.css-label {
+    background-position: 0 -26px;
+}
+.css-label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.table-wrap {
+    background-color: #fff;
+    position: absolute;
+    top: 140px;
+    bottom: 0;
+    /*left: 0;*/
+    /*right: 0;*/
+    width: 100%;
+}
 .fix {
 	*zoom:1;
 }
