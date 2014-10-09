@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, span, input, ul, ol, li {
 }
 
 body {
-	background: #181D23 url('./images/grid.png') no-repeat scroll center 30px;
+	background: #181D23 url('../images/grid.png') no-repeat scroll center 30px;
 }
 
 .top-bar {
@@ -117,7 +117,7 @@ body {
 	margin-top: 40px;
 }
 .selected {
-	background: url('./images/switch-pointer.png') no-repeat scroll left top;	
+	background: url('../images/switch-pointer.png') no-repeat scroll left top;	
 }
 .selected .s-title, .selected .s-desc {
 	color: #EC6A55;

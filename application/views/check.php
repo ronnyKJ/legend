@@ -1,4 +1,13 @@
 <?php $base_url = $this->config->item('base_url');?>
+
+<?php
+	session_start();
+
+	$_SESSION['uid'] = $uid;
+	$_SESSION['username'] = $username;
+	$_SESSION['portrait'] = $portrait;
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,10 +16,7 @@
 </head>
 <body>
 <script>
-var uid = '<?=$uid?>';
-var username = '<?=$username?>';
-var portrait = '<?=$portrait?>';
-window.parent.location.href = "/home";
+	window.parent.location.href = "/user";
 </script>
 </body>
 </html>

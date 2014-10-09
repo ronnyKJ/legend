@@ -12,14 +12,14 @@ body {
 .grid-2 {
 	width: 100%;
 	height: 125px;
-	background: url('./images/grid-2.png') no-repeat scroll center top;
+	background: url('../images/grid-2.png') no-repeat scroll center top;
 	border-bottom: 1px rgba(236, 106, 85, .1) solid;
 	padding-top: 1px;
 }
 .avatar-circle {
 	width: 188px;
 	height: 116px;
-	background: url('./images/avatar-circle.png') no-repeat scroll center top;
+	background: url('../images/avatar-circle.png') no-repeat scroll center top;
 	margin: 22px auto;
 	text-align: center;
 	overflow: hidden;
@@ -50,7 +50,7 @@ body {
 	padding-left: 28px;
 	color: #fff;
 	font-size: 16px;
-	background: #EC6A55 url('./images/add-charts.png') no-repeat scroll 12% center;
+	background: #EC6A55 url('../images/add-charts.png') no-repeat scroll 12% center;
 	position: absolute;
 	left: 56%;
 	top: 50px;

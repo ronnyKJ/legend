@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends MY_Controller{ 
+class User extends MY_Controller{ 
 
     function __construct(){
         parent::__construct();
@@ -11,12 +11,12 @@ class Home extends MY_Controller{
 
 	public function index(){
         session_start();
-		$data = $this->user->data();
 		$result = array(
-            'data' => $data
+            'uid' => $_SESSION['uid'],
+            'username' => $_SESSION['username'],
+            'portrait' => $_SESSION['portrait']
         );
-        var_dump($_SESSION['username']);
-		$this->load->view('home', $result);
+		$this->load->view('user', $result);
 	}
 
 }

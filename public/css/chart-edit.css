@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, span, input, ul, ol, li {
 }
 
 body {
-	background: #181D23 url('./images/grid.png') no-repeat scroll center 30px;
+	background: #181D23 url('../images/grid.png') no-repeat scroll center 30px;
 }
 .nav {
 	width: 50px;
@@ -30,10 +30,10 @@ body {
 	width: 40px;
 }
 .home {
-	background: #222632 url('./images/home.png') no-repeat scroll center center;
+	background: #222632 url('../images/home.png') no-repeat scroll center center;
 }
 .share {
-	background: #222632 url('./images/share.png') no-repeat scroll center center;
+	background: #222632 url('../images/share.png') no-repeat scroll center center;
 }
 .main-part {
 	margin: 120px 110px auto 150px;
@@ -56,10 +56,10 @@ body {
 	background-repeat: no-repeat;
 }
 .pc {
-	background-image: url('./images/pc.png');
+	background-image: url('../images/pc.png');
 }
 .mobile {
-	background-image: url('./images/mobile.png');
+	background-image: url('../images/mobile.png');
 }
 .edit-area {
 	background-color: rgba(79, 79, 101, 1.0);	
@@ -83,10 +83,10 @@ body {
 	background-repeat: no-repeat;
 }
 .edit {
-	background-image: url('./images/pen.png');
+	background-image: url('../images/pen.png');
 }
 .preview {
-	background-image: url('./images/eye.png');
+	background-image: url('../images/eye.png');
 }
 .selected {
 	background-color: rgba(79, 79, 101, 1.0);
