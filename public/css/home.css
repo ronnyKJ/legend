@@ -54,7 +54,7 @@ body {
 	visibility:hidden;
 }
 .login-signup {
-	width: 99px;
+	width: auto;
 	height: 22px;
 	background-color: #3C3B55;
 	color: #B4B5B5;
@@ -64,7 +64,8 @@ body {
 	border-radius: 13px;
 	padding: 3px 13px;
 	text-align: center;
-
+	z-index: 2;
+	cursor: pointer;
 }
 .login, .sign-up {
 	display: inline-block;
@@ -152,6 +153,7 @@ body {
 	margin-top: 22px;
 	list-style-type: none;
 	text-align: center;
+	cursor: pointer;
 }
 .copyright {
 	color: #fff;
@@ -201,6 +203,18 @@ body {
 	margin-top: -8px;
 	text-align: center;
 }
+
+/*********************** unlogined.html ****************************/
+.login-frame{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	border: none;
+	background-color: #FFF;
+	z-index: 100;
+	display: none;
+}
+
 
 /*********************** logined.html ****************************/
 .my-charts, .chart-numbers {

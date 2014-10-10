@@ -49,11 +49,12 @@ body {
 	border-radius: 12px;
 	padding-left: 28px;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	background: #EC6A55 url('../images/add-charts.png') no-repeat scroll 12% center;
 	position: absolute;
 	left: 56%;
 	top: 50px;
+	cursor: pointer;
 }
 .charts-list {
 	width: 744px;

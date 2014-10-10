@@ -25,6 +25,7 @@ body {
 	overflow: hidden;
 	background-color: #222632;
 	margin-top: 20px;
+	display: block;
 }
 .nav-item img {
 	width: 40px;

@@ -14,11 +14,14 @@ class Login extends MY_Controller{
 	}
 
     public function check(){
-        $result = array(
-                'uid' => $_GET['id'],
-                'username' => $_GET['username'],
-                'portrait' =>  $_GET['headurl']
-            );
+        session_start();
+        
+        $result = array();
+
+        $_SESSION['uid'] = $_GET['id'];
+        $_SESSION['username'] = $_GET['username'];
+        $_SESSION['portrait'] = $_GET['headurl'];
+
         $this->load->view('check', $result);
     }
 
